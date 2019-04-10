@@ -160,7 +160,65 @@ h2 {
 
 /* Third section end */
 
+.fourthSection {
+	text-align: center;
+	background: #f0f0f0;
+}
+
+.fourthSection h2 {
+	color: #999999;
+}
+
+.fourthSection p {
+	color: #6bc472;
+}
+
+.works {
+	display: flex;
+	justify-content: center;
+	background: #f0f0f0;
+}
+
+.work {
+	background: #f0f0f0;
+}
+
+.work img {
+	width: 200px;
+	height: 200px;
+}
+
+.work p {
+	color: #000;
+}
+
+/* works end*/
+
+.plans {
+	display: flex;
+	justify-content: center;
+}
+
+.planFirst{
+	width: 300px;
+}
+
+.whiteStart {
+	background: #fff;
+}
+
+.whiteStart h2,
+.whiteStart p {
+	padding: 1%;
+}
+
+.whiteStart p {
+	color: #d43f41;
+}
+/* Form */
+
 .formSection {
 	background: #eb504e;
 	text-align: center;
+	padding: 2% 0;
 }
