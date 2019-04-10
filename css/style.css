@@ -1,0 +1,166 @@
+header {
+	background: #f66262;
+	display: flex;
+	justify-content: center;
+}
+header img{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin-right: 20%;
+
+}
+
+nav {
+	display: inline-block;
+
+}
+ul {
+	margin-top: 70px; 
+	float: right;
+}
+
+li {
+	display: inline-block; 
+	margin: 5px;
+	font-size: 20px;
+	color: #fff;
+
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Header end */
+
+.firstSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #eb504e;
+	padding: 3% 0;
+}
+
+.firstSection h1 {
+	color: #fff;
+	font-size: 35px;
+}
+
+.firstSection p {
+	color: #fff;
+	padding: 2% 0;
+}
+
+/* firstSection end */
+
+.secondSection {
+	background: #232325;
+	padding: 2% 0;
+}
+
+.smartBoxes {
+	display: flex;
+	justify-content: center;
+	justify-content: center;
+	background: #232325;
+}
+
+.smart {
+	background: #232325;
+	text-align: center;
+	color: #fff;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+.smart p {
+	color:#d43f41;
+	padding: 1% 0;
+}
+
+.smartBox {
+	color: #fff;
+	display: inline-block;
+	background: #232325;
+	text-align: center;
+	padding: 5px;
+}
+
+.smartBox img {
+	width: 100px;
+	height: 100px;
+}
+
+.smartBox h3 {
+	font-size: 20px;
+}
+
+.smartBox p {
+	color: #d43f41;
+}
+
+/* Second section end */
+
+.thirdSection {
+	background: #6cc372;
+	text-align: center;
+	padding: 2% 0;
+}
+
+.thirdSection h2 {
+	color: #fff;
+}
+
+.thirdSection p {
+	padding: 1% 0;
+}
+
+.team {
+	display: flex;
+	justify-content: center;
+}
+
+.member {
+	margin-right: 1%;
+	background: #fff;
+}
+
+.member img {
+	border-radius: 50%;
+	border: 5px solid #6bc472;
+	margin: 5px;
+}
+
+.member h3 {
+	font-size: 20px;
+	color: #6bc472;
+}
+
+.member p {
+	color: #fda8a1;
+}
+
+.lastMember {
+	margin-right: -1%;
+}
+
+.member button {
+	width: 90%;
+	padding: 5px;
+	background: #6bc472;
+	border: none;
+	margin: 2% 0;
+	color: #fff;
+	font-size: 20px;
+}
+
+/* Third section end */
+
+.formSection {
+	background: #eb504e;
+	
+}
